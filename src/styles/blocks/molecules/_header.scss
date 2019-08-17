@@ -1,8 +1,9 @@
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1;
 
   &__inner {
     display: flex;
@@ -15,7 +16,6 @@
 
   &__burger {
     position: relative;
-    z-index: 1;
     width: 30px;
     height: 14px;
     background-color: transparent;
@@ -52,7 +52,6 @@
 
   &__button {
     position: relative;
-    z-index: 1;
     font-family: $font-family-secondary;
     font-size: 25px;
     line-height: 1;
