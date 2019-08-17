@@ -23,7 +23,6 @@
 
   &__content {
     position: relative;
-    border-radius: 2px;
     overflow: hidden;
 
     &:hover {
@@ -83,7 +82,7 @@
   &__link {
     position: relative;
     font-family: $font-family-secondary;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.3s;

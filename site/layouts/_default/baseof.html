@@ -19,6 +19,8 @@
   </head>
 
   <body>
+    {{ block "header" . }} {{ partial "blocks/header" }} {{ end }}
+
     {{ block "main" . }}  {{ end }}
 
     {{ $script := .Site.Data.webpack.main }}
