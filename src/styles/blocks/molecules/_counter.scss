@@ -1,0 +1,28 @@
+.counter {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: $font-family-secondary;
+  font-size: 25px;
+  line-height: 1;
+  transform: rotate(-90deg);
+
+  &__current {
+    position: relative;
+    width: 17px;
+    margin-right: 30px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 52.5%;
+      right: -4px;
+      width: 20px;
+      height: 2px;
+      background-color: $color-primary;
+      transform: translateY(-100%) translateX(100%);
+    }
+  }
+}

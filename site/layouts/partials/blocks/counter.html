@@ -1,0 +1,9 @@
+<div class="counter">
+  {{ if lt (len $.Site.Data.projects.projects) 10 }}
+    <span class="counter__current">01</span>
+    <span class="counter__quantity">0{{ len $.Site.Data.projects.projects }}</span>
+  {{ else }}
+    <span class="counter__current">01</span>
+    <span class="counter__quantity">{{ len $.Site.Data.projects.projects }}</span>
+  {{ end }}
+</div>
