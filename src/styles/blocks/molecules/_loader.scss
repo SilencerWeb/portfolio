@@ -1,0 +1,54 @@
+.loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: 0.3s;
+
+  &_hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &__text {
+    position: absolute;
+    bottom: -2.5px;
+    left: -6px;
+    font-family: $font-family-secondary;
+    font-size: 150px;
+    line-height: 0.68;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:after {
+      content: '.';
+      animation: loadingDots 1s steps(5, end) infinite;
+      margin-left: -25px;
+    }
+  }
+}
+
+@keyframes loadingDots {
+  0%,
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 20px 0 0 rgba(0, 0, 0, 0), 40px 0 0 rgba(0, 0, 0, 0);
+  }
+
+  40% {
+    color: #000000;
+    text-shadow: 20px 0 0 rgba(0, 0, 0, 0), 40px 0 0 rgba(0, 0, 0, 0);
+  }
+
+  60% {
+    text-shadow: 20px 0 0 #000000, 40px 0 0 rgba(0, 0, 0, 0);
+  }
+
+  80%,
+  100% {
+    text-shadow: 20px 0 0 #000000, 40px 0 0 #000000;
+  }
+}

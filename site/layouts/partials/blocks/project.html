@@ -1,0 +1,24 @@
+<section class="project section">
+  <div class="project__inner">
+    <h2 class="project__name" style="color: {{ .accentColor }}">{{ .name }}</h2>
+    <div class="project__content">
+      <a href="{{ .link }}" target="_blank">
+        <img class="project__image" src="/images/{{ .imageName }}.jpg" srcset="/images/{{ .imageName }}@2x.jpg" alt="{{ .name }}">
+      </a>
+      <div class="project__details" style="color: {{ .textColor }}; background-color: {{ .accentColor }}">
+        <div class="project__details-side project__details-side_left">
+          <p class="project__description">{{ .description }}</p>
+          <a class="project__link" href="{{ .link }}" target="_blank" style="color: {{ .textColor }}">Visit site</a>
+        </div>
+        <div class="project__details-side project__details-side_right">
+          <ul class="project__stack">
+            {{ range .stack }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          <span class="project__year">{{ .year }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

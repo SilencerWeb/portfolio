@@ -1,6 +1,9 @@
 @import "variables";
 @import "mixins";
 
+// Vendor
+@import "vendor/fullpage";
+
 // Parts
 @import "parts/normalize";
 @import "parts/fonts";
@@ -10,5 +13,7 @@
 @import "blocks/atoms/container";
 
 // Molecules
+@import "blocks/molecules/loader";
+@import "blocks/molecules/project";
 
 // Organisms

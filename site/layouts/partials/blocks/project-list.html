@@ -1,0 +1,5 @@
+<div class="project-list">
+  {{ range $.Site.Data.projects.projects }}
+    {{ partial "blocks/project" . }}
+  {{ end }}
+</div>
