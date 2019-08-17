@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  -ms-overflow-style: scrollbar;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
