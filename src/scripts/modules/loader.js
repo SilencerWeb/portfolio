@@ -1,6 +1,9 @@
 import { onPageLoad } from '../utils';
 
+
 onPageLoad(() => {
-  const loader = document.querySelector('.loader');
-  loader.classList.add('loader_hidden');
+  setTimeout(() => {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('loader_hidden');
+  }, 1000);
 });
