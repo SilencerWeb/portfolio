@@ -4,7 +4,7 @@
     <div class="project__content">
       <a href="{{ .link }}" target="_blank">
         {{ if eq .mediaType "image" }}
-          <img class="project__media" src="/images/{{ .mediaName }}.jpg" srcset="/images/{{ .mediaName }}@2x.jpg" alt="{{ .name }}">
+          <img class="project__media" src="/images/project-covers/{{ .mediaName }}.jpg" srcset="/images/project-covers/{{ .mediaName }}@2x.jpg" alt="{{ .name }}">
         {{ else }}
           <video class="project__media" src="/videos/{{ .mediaName }}.mp4" loop muted>
         {{ end }}
