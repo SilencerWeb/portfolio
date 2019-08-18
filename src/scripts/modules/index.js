@@ -1,2 +1,3 @@
-import './projects-list';
 import './loader';
+import './header';
+import './projects-list';

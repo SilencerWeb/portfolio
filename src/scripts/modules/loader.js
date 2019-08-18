@@ -1,8 +1,6 @@
-import { onPageLoad, doesElementExist } from '../utils';
+import { onPageLoad } from '../utils';
 
 onPageLoad(() => {
-  if (doesElementExist('.loader')) {
-    const loader = document.querySelector('.loader');
-    loader.classList.add('loader_hidden');
-  }
+  const loader = document.querySelector('.loader');
+  loader.classList.add('loader_hidden');
 });
