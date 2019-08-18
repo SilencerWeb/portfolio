@@ -3,7 +3,11 @@
     <h2 class="project__name" style="color: {{ .accentColor }}">{{ .name }}</h2>
     <div class="project__content">
       <a href="{{ .link }}" target="_blank">
-        <img class="project__image" src="/images/{{ .imageName }}.jpg" srcset="/images/{{ .imageName }}@2x.jpg" alt="{{ .name }}">
+        {{ if eq .mediaType "image" }}
+          <img class="project__media" src="/images/{{ .mediaName }}.jpg" srcset="/images/{{ .mediaName }}@2x.jpg" alt="{{ .name }}">
+        {{ else }}
+          <video class="project__media" src="/videos/{{ .mediaName }}.mp4" loop muted>
+        {{ end }}
       </a>
       <div class="project__details" style="color: {{ .textColor }}; background-color: {{ .accentColor }}">
         <div class="project__details-side project__details-side_left">

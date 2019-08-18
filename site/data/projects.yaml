@@ -10,7 +10,8 @@ projects:
       - Webpack
     year: 2019
     link: "https://youtility.co.uk"
-    imageName: "youtility"
+    mediaName: "youtility"
+    mediaType: "video"
     accentColor: "#585cd8"
     textColor: "#ffffff"
   - name: "Zoe"
@@ -24,7 +25,8 @@ projects:
       - Webpack
     year: 2019
     link: "https://joinzoe.com"
-    imageName: "zoe"
+    mediaName: "zoe"
+    mediaType: "image"
     accentColor: "#fa7268"
     textColor: "#ffffff"
   - name: "Terraforge"
@@ -39,7 +41,8 @@ projects:
       - Webpack
     year: 2019
     link: "https://terraforge.io"
-    imageName: "terraforge"
+    mediaName: "terraforge"
+    mediaType: "video"
     accentColor: "#f02828"
     textColor: "#ffffff"
   - name: "Drone Marketplace"
@@ -54,7 +57,8 @@ projects:
       - Webpack
     year: 2019
     link: "https://drone-marketplace.netlify.com"
-    imageName: "drone-marketplace"
+    mediaName: "drone-marketplace"
+    mediaType: "image"
     accentColor: "#2364d2"
     textColor: "#ffffff"
   - name: "Shorin Print"
@@ -69,22 +73,24 @@ projects:
       - Gulp
     year: 2019
     link: "http://shorin-print.netlify.com"
-    imageName: "shorin-print"
+    mediaName: "shorin-print"
+    mediaType: "video"
     accentColor: "#373c41"
     textColor: "#ffffff"
   - name: "Drone"
     description: "Drone is a self-service Continuous Delivery platform for busy development teams"
     stack:
-      - Hugo
       - HTML
       - CSS
       - JavaScript
+      - Pug
       - SASS
       - BEM
-      - Webpack
+      - Gulp
     year: 2019
     link: "https://drone.io"
-    imageName: "drone"
+    mediaName: "drone"
+    mediaType: "video"
     accentColor: "#2364d2"
     textColor: "#ffffff"
   - name: "Mutify"
@@ -99,7 +105,8 @@ projects:
       - Gulp
     year: 2019
     link: "https://mutify.app"
-    imageName: "mutify"
+    mediaName: "mutify"
+    mediaType: "image"
     accentColor: "#282841"
     textColor: "#ffffff"
   - name: "Melior"
@@ -114,7 +121,8 @@ projects:
       - Gulp
     year: 2018
     link: "https://melior.ai"
-    imageName: "melior"
+    mediaName: "melior"
+    mediaType: "image"
     accentColor: "#26c8d8"
     textColor: "#ffffff"
   - name: "Tomatdesign"
@@ -130,6 +138,7 @@ projects:
       - Gulp
     year: 2017
     link: "https://tomatdesign.ru/en"
-    imageName: "tomatdesign"
+    mediaName: "tomatdesign"
+    mediaType: "image"
     accentColor: "#323232"
     textColor: "#ffffff"
