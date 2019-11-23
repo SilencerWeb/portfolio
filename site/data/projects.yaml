@@ -1,6 +1,6 @@
 projects:
   - name: "Youtility"
-    description: "Youtility is bringing together Open Banking and deep behavioural data analytics, they help homes save across their finances"
+    description: "Youtility is bringing together Open Banking and deep behavioural data analytics, they help homes save across their finances."
     stack:
       - React
       - Gatsby
@@ -15,7 +15,7 @@ projects:
     accentColor: "#585cd8"
     textColor: "#ffffff"
   - name: "Zoe"
-    description: "ZOE is world’s largest scientific nutrition project. They are working together with leading scientists and thousands of volunteers – combining large-scale data and machine learning to predict personal nutritional responses to any meal so people could eat with confidence"
+    description: "ZOE is world’s largest scientific nutrition project. They are working together with leading scientists and thousands of volunteers – combining large-scale data and machine learning to predict personal nutritional responses to any meal so people could eat with confidence."
     stack:
       - React
       - Gatsby
@@ -30,7 +30,7 @@ projects:
     accentColor: "#fa7268"
     textColor: "#ffffff"
   - name: "Terraforge"
-    description: "Terraforge is a DevOps platform to define and deploy infrastructure-as-code on any cloud provider"
+    description: "Terraforge is a DevOps platform to define and deploy infrastructure-as-code on any cloud provider."
     stack:
       - Hugo
       - HTML
@@ -46,7 +46,7 @@ projects:
     accentColor: "#f02828"
     textColor: "#ffffff"
   - name: "Drone Marketplace"
-    description: "Drone Marketplace is a registry of Drone community plugins to customize continuous delivery pipeline"
+    description: "Drone Marketplace is a registry of Drone community plugins to customize continuous delivery pipeline."
     stack:
       - Hugo
       - HTML
@@ -62,7 +62,7 @@ projects:
     accentColor: "#2364d2"
     textColor: "#ffffff"
   - name: "Shorin Print"
-    description: "Shorin Print is an online store of picture reproductions of the artist Dmitry Shorin"
+    description: "Shorin Print is an online store of picture reproductions of the artist Dmitry Shorin."
     stack:
       - HTML
       - CSS
@@ -72,13 +72,13 @@ projects:
       - BEM
       - Gulp
     year: 2019
-    link: "http://shorin-print.netlify.com"
+    link: "https://shorinprint.com"
     mediaName: "shorin-print"
     mediaType: "video"
     accentColor: "#373c41"
     textColor: "#ffffff"
   - name: "Drone"
-    description: "Drone is a self-service Continuous Delivery platform for busy development teams"
+    description: "Drone is a self-service Continuous Delivery platform for busy development teams."
     stack:
       - HTML
       - CSS
@@ -94,7 +94,7 @@ projects:
     accentColor: "#2364d2"
     textColor: "#ffffff"
   - name: "Mutify"
-    description: "Mutify is a macOS application for using a shortcut or the touch bar to quickly mute your microphone"
+    description: "Mutify is a macOS application for using a shortcut or the touch bar to quickly mute your microphone."
     stack:
       - HTML
       - CSS
@@ -110,7 +110,7 @@ projects:
     accentColor: "#282841"
     textColor: "#ffffff"
   - name: "Melior"
-    description: "Melior AI is an R&D and solutions provider with a family of enterprise and small business chatbots"
+    description: "Melior AI is an R&D and solutions provider with a family of enterprise and small business chatbots."
     stack:
       - HTML
       - CSS
@@ -126,7 +126,7 @@ projects:
     accentColor: "#26c8d8"
     textColor: "#ffffff"
   - name: "Tomatdesign"
-    description: "Tomatdesign is a branding and graphic design agency based in Moscow that specializes in concept, art direction, branding, typography, illustration and graphic design"
+    description: "Tomatdesign is a branding and graphic design agency based in Moscow that specializes in concept, art direction, branding, typography, illustration and graphic design."
     stack:
       - HTML
       - CSS
@@ -137,7 +137,7 @@ projects:
       - BEM
       - Gulp
     year: 2017
-    link: "https://tomatdesign.ru/en"
+    link: "https://tomatdesign.ru"
     mediaName: "tomatdesign"
     mediaType: "image"
     accentColor: "#323232"
